@@ -4,25 +4,24 @@ import styled from 'styled-components'
 export const FooterDiv = styled.div`
 display:flex;
 justify-content:center;
+position:absolute;
+bottom: 0;
+width:100%;  
 
-width:100%;
-
-@media(max-width:300px){
-    .FooterDiv{
-        display:list-item;
+@media(max-width:360px){
+    {
+        display:none;
         background-color:red;
         overflow:hidden;
-    }
+    }  
 }
+
 
 
 .inner-container{
     display:flex;
     justify-content:space-between;
     padding:20px;
-    /* position:absolute;
-bottom:0px; */
-
 }
 
 .right-side{
@@ -33,7 +32,6 @@ bottom:0px; */
     margin-right:40px;
     font-size:13px;
     font-weight:bold;
-    color:red;
     }
 }
 
