@@ -12,6 +12,7 @@ import Register from './components/authentication/register/Register';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Verification from './components/authentication/verification/Verification';
 import Footer from './components/footer/Footer';
+import ErrorPage from './components/ErrorPage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/login' component ={Login} /> 
           <Route path='/register' component = {Register} />
           <Route path='/verification' component ={Verification} />
+          <Route component={ErrorPage} />
         </Switch>
         <Footer />
       </div>
