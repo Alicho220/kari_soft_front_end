@@ -16,6 +16,7 @@ export const RegisterDiv = styled.div`
 
     .main-container {
         min-height:70vh;
+        margin-bottom:-20px;
 
       .h3 {
         font-size: 13px;
@@ -58,7 +59,7 @@ export const RegisterDiv = styled.div`
   }
   .main-container {
     h3 {
-      /* font-size: 25px; */
+      font-size: 25px;
       font-weight: bold;
       color: #114ebb;
       margin-top: 10px;
@@ -90,7 +91,7 @@ export const RegisterDiv = styled.div`
         color: #114ebb;
         font-weight: 600;
         font-size: 12px;
-        padding-bottom:20px;
+        /* padding-bottom:20px; */
       }
 
     }
@@ -100,7 +101,7 @@ export const RegisterDiv = styled.div`
     }
     .sign-up {
       display: flex;
-      margin-top: 40px;
+      padding-top: 20px;
       font-weight: 600;
       font-size: 12px;
       color: #114ebb;

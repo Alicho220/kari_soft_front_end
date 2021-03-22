@@ -12,7 +12,7 @@ function Navbar() {
           <Link to="/">
             <img src={kari} alt="" />
           </Link>
-{/* 
+
           <button
             className="toggler"
             type="button"
@@ -20,7 +20,7 @@ function Navbar() {
             data-target="#navbar1"
           >
             <span className="navbar-toggler-icon"></span>
-          </button> */}
+        </button>
         </div>
       </nav>
     </NavBarDiv>

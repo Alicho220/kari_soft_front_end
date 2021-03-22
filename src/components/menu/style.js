@@ -14,10 +14,10 @@ export const MenuDiv = styled.div`
     }
     .dp {
       width: 100px;
-      background:none;
+      background: none;
     }
-    .image-div{
-      display:none;
+    .image-div {
+      display: none;
     }
   }
 
@@ -26,7 +26,6 @@ export const MenuDiv = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* text-align:start; */
   }
 
   .dp {

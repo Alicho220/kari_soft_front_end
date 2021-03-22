@@ -16,7 +16,6 @@ img{
 .toggler{
     background-color:transparent;
     border:none;
-    /* color:white; */
 }
 
 .inner-container{
@@ -63,10 +62,15 @@ img{
         display:flex;
         flex-direction:row;
 
+        button{
+            display:none;
+        }
+
     }
+    
 
     .navbar .navbar-brand, .navbar .nav-link {
-        /* color: #555; */
+        color: #555;
     }
     .container{
         img{

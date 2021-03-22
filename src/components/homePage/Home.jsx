@@ -1,7 +1,7 @@
 import React from "react";
 import { HomeDiv } from "./style";
 import homepage from "../../assets/homepage.png";
-import computer from "../../assets/computer.png";
+// import computer from "../../assets/computer.png";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             aperiam nostrum.
           </p>
-          <Link to=''>
+          <Link to='/menu'>
             <button>Become and Investor</button>
           </Link>
           <Link to="/menu">
