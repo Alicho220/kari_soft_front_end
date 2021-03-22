@@ -9,13 +9,11 @@ bottom: 0;
 width:100%;  
 
 @media(max-width:360px){
-    {
         display:none;
-        background-color:red;
+        /* background-color:red; */
         overflow:hidden;
-    }  
+    
 }
-
 
 
 .inner-container{
@@ -28,7 +26,6 @@ width:100%;
     display:flex;
     flex-direction:row;
     p{
-
     margin-right:40px;
     font-size:13px;
     font-weight:bold;
