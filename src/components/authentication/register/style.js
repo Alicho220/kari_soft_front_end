@@ -18,7 +18,7 @@ export const RegisterDiv = styled.div`
         min-height:70vh;
 
       .h3 {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: bold;
         color: #114ebb;
       }
@@ -58,10 +58,10 @@ export const RegisterDiv = styled.div`
   }
   .main-container {
     h3 {
-      font-size: 25px;
+      /* font-size: 25px; */
       font-weight: bold;
       color: #114ebb;
-      padding-top: 10px;
+      margin-top: 10px;
     }
     p {
       color: #114ebb;
@@ -72,7 +72,7 @@ export const RegisterDiv = styled.div`
     display: flex;
     flex-direction: column;
     input {
-      margin-top: 20px;
+      margin-top: 18px;
 
       ::placeholder {
         color: #114ebb;
@@ -88,10 +88,11 @@ export const RegisterDiv = styled.div`
       p {
         display: flex;
         color: #114ebb;
-        justify-content: start;
         font-weight: 600;
         font-size: 12px;
+        padding-bottom:20px;
       }
+
     }
     button {
       background: #e61f01;
@@ -99,7 +100,7 @@ export const RegisterDiv = styled.div`
     }
     .sign-up {
       display: flex;
-      margin-top: 20px;
+      margin-top: 40px;
       font-weight: 600;
       font-size: 12px;
       color: #114ebb;

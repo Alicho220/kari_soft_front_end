@@ -8,12 +8,27 @@ position:absolute;
 bottom: 0;
 width:100%;  
 
-@media(max-width:360px){
+@media(max-width:420px){
         display:none;
         /* background-color:red; */
         overflow:hidden;
     
 }
+
+@media(max-width:768px){
+        .icons{
+            svg{
+                display:flex;
+                /* padding:5px; */
+                /* flex-direction:row; */
+                /* background-color:red; */
+                /* width:20px; */
+                
+            }
+        }
+    
+}
+
 
 
 .inner-container{

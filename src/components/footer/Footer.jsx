@@ -9,17 +9,19 @@ function Footer() {
         <FooterDiv>
             <div className="inner-container">
                 <div className="left-side icons">
-                    <Link style={{color:'white'}}>
+                    <Link to='' style={{color:'white'}}>
                 <AiOutlineTwitter />
                     </Link>
+                    <Link to='' style={{color:'white'}}>
                 <AiOutlineFacebook />
+                    </Link>
+                    <Link to='' style={{color:'white'}}>
                 <AiOutlineInstagram />
-
-                {/* <ImCheckboxUnchecked /> */}
+                    </Link>    
 
                 </div>
                 <div className="right-side ">
-                    <p>@2020 ALL RIGHTS RESERVED</p>
+                    <p>©2020 ALL RIGHTS RESERVED</p>
                     <p>TERMS AND CONDITION</p>
                     <p>PRIVACY POLICY</p>
                     <p>COOKIE POLICY</p>
