@@ -5,15 +5,18 @@ export const HomeDiv = styled.div`
   justify-content: center;
   background-color: #0d039c;
   min-height: 100vh;
+  /* opacity:0.8; */
 
   /* mobile responsiveness */
   @media (max-width: 414px) {
     .left-side {
       margin-top: 30px;
+     min-height:300vh;
       button {
         margin-top: 20px;
       }
     }
+
     .right-side {
       display: none;
       background-color: green;
@@ -39,7 +42,7 @@ export const HomeDiv = styled.div`
   .left-side {
     text-align: start;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 30px;
     button {
       margin-right: 30px;
       background-color: #0d039c;
@@ -48,6 +51,9 @@ export const HomeDiv = styled.div`
         background: #e61f01;
       }
     }
+      h2{
+        line-height:55px;
+      }
   }
 
   .right-side {

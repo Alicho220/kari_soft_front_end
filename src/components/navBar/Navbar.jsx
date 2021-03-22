@@ -8,11 +8,11 @@ function Navbar() {
   return (
     <NavBarDiv>
       <nav className="navbar fixed-top navbar-dark inner-container">
-        <div className="container pt-3">
-          <Link to="/home">
+        <div className="container pt-1">
+          <Link to="/">
             <img src={kari} alt="" />
           </Link>
-
+{/* 
           <button
             className="toggler"
             type="button"
@@ -20,7 +20,7 @@ function Navbar() {
             data-target="#navbar1"
           >
             <span className="navbar-toggler-icon"></span>
-          </button>
+          </button> */}
         </div>
       </nav>
     </NavBarDiv>

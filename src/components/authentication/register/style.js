@@ -15,8 +15,10 @@ export const RegisterDiv = styled.div`
     }
 
     .main-container {
+        min-height:70vh;
+
       .h3 {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
         color: #114ebb;
       }
@@ -97,7 +99,7 @@ export const RegisterDiv = styled.div`
     }
     .sign-up {
       display: flex;
-      margin-top: 30px;
+      margin-top: 20px;
       font-weight: 600;
       font-size: 12px;
       color: #114ebb;

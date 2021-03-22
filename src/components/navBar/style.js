@@ -66,7 +66,7 @@ img{
     }
 
     .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
+        /* color: #555; */
     }
     .container{
         img{

@@ -14,6 +14,10 @@ export const MenuDiv = styled.div`
     }
     .dp {
       width: 100px;
+      background:none;
+    }
+    .image-div{
+      display:none;
     }
   }
 

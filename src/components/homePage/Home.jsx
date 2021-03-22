@@ -21,7 +21,9 @@ function Home() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             aperiam nostrum.
           </p>
-          <button>Become and Investor</button>
+          <Link to=''>
+            <button>Become and Investor</button>
+          </Link>
           <Link to="/menu">
             <button>Register as a Trader</button>
           </Link>
