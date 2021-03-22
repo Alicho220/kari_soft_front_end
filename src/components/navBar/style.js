@@ -57,7 +57,7 @@ img{
     
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     .navbar {
         display:flex;
         flex-direction:row;
@@ -67,7 +67,6 @@ img{
         }
 
     }
-    
 
     .navbar .navbar-brand, .navbar .nav-link {
         color: #555;
